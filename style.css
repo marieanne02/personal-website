@@ -1,0 +1,169 @@
+body
+{
+	background-image: url('image.resume/tulips.jpg');
+}
+.button
+{
+	position: fixed;
+	top: 3%;
+	left: 0%;
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 20px;
+	padding: 10px;
+}
+.button a:hover
+{
+	box-shadow: 0 0 5px deeppink, 0 0 25px deeppink, 0 0 50px deeppink, 0 0 100px deeppink;
+}
+.button a 
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 4px;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	margin: 2px;
+}
+.homepage
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;
+}
+.biodata
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;	
+}
+.experience
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;
+}
+.education
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;
+}
+.family 
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;
+}
+.gallery
+{
+	background-color: whitesmoke;
+	color: deeppink;
+	box-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke;
+	border: black 2px solid;
+}
+h1
+{
+	text-align: center;
+	font-family: tahoma; 
+	font-size: 60px;
+}
+.input-container
+{
+	text-align: right;
+	padding: 4px;
+}
+.icons
+{
+	position: fixed;
+	top: 20%;
+	right: 0%;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+}
+.icons a 
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+	margin: 2px;
+}
+.icons a i 
+{
+	margin-right: 16px;
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+}
+.tiktok
+{
+	background-color: black;
+	color: whitesmoke;
+	border: none;
+}
+.telegram
+{
+	background-color: steelblue;
+	color: whitesmoke;
+	border: none;
+}
+.whatsapp
+{
+	background-color: limegreen;
+	color: whitesmoke;
+	border: none;
+}
+.details
+{
+	text-align: center;
+	margin-top: 10%;
+}
+.details h1 
+{
+	font-size: 65px;
+	color: black;
+	margin-bottom: 10px;
+}
+span
+{
+	color: lightpink;
+	line-height: 20px;
+	text-shadow: 0 0 5px deeppink, 0 0 25px deeppink;
+}
+.details p 
+{
+	color: black;
+	font-size: 17px;
+	font: sans-serif;
+	line-height: 20px;
+	text-align: center;
+}
+.details a 
+{
+	background-color: lightpink;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	margin: 25px 200px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: none;
+	border: 2px black solid;
+	text-align: center;
+	line-height: 10px;
+	justify-content: center;
+}

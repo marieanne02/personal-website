@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body
+		{
+			background-image: url('image.resume/pinky.jpg');
+		}
+		h1 
+		{
+			text-align: center;
+		}
+		a 
+		{
+		background-color: lightpink;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-weight: bold;
+		color: black;
+		margin: 10px;
+		border-radius: 5px;
+		display: inline-block;
+		box-shadow: none;
+		border: 2px black solid;
+		text-align: center;
+		line-height: 10px;
+		margin-top: 150px;
+		}
+		.column 
+		{
+			float: left;
+			width: 31%;
+			padding: 10px;
+		}
+		.row::after 
+		{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		img
+		{
+			height: 200px;
+			width: 200px;
+		}
+	</style>
+
+
+</head>
+<body>
+
+	<h1 style="background-color: deeppink; height: 60px; color: black; text-shadow: 0 0 5px whitesmoke, 0 0 25px whitesmoke, 0 0 50px whitesmoke; font-size: 50px; font-family: Tahoma; line-height: 60px;">EXPERIENCES</h1>
+
+	<div class="row">
+		<div class="column">
+		<img src="image.resume/teh.jpg" width="100%">
+		<p id="myContent">My very first experience in work-life</p>
+
+		<button type="button" onclick="myText()">Click here</button>
+
+		<script>
+			function myText() 
+			{ 
+  			document.getElementById("myContent").innerHTML = "On year 2019, right after Malaysian Certificate of Education (SPM), I worked as tearista at AladdinTi, one of famous beverage distributor in Pasir Gudang, Johor Bahru. It was a great experience since it was my first job ever.";
+			}
+		</script>			
+		</div>
+
+		<div class="column">
+		<img src="image.resume/kemas.jpg" width="100%">
+		<p id="myWork">My Second Experience!</p> 
+
+	 	<button type="button" onclick="myWord()">Click here</button> 
+
+		<script>
+			function myWord() 
+			{ 
+  			document.getElementById("myWork").innerHTML = "On year 2020, as I waited for my upu result, I worked as a housekeeping at Hotel Kyoto which it just nearby my house. I worked there for 7 months. It such a hectic job yet an amazing job experience for me because I surrounded by good employees and employer.";
+			}
+		</script>
+		</div>
+
+		<div class="column">
+		<img src="image.resume/kerja.jpg" width="100%">	
+	 	<p id="myExperience">Third Experience <3</p> 
+
+	 	<button type="button" onclick="mySentence()">Click here</button>	
+
+		<script>
+			function mySentence() 
+			{ 
+  			document.getElementById("myExperience").innerHTML = "On year 2022, right after I complete my Malaysian Higher School Certificate (STPM), I worked again at Hotel Kyoto as a receiptionist for 3 months as I waited myself to pursue my degree. It was an enthusiastic and adaptable experience as a professional receptionist with exceptional multitasking abilities and writing skills. It helped me worked well as part of a team and communicate promptly and thoroughly with staff and customers. Although, it keeps a tight schedule but I managed to worked on it on time in an organized and attentive manner.";
+			}
+		</script>
+		</div>
+	</div>
+
+	<a href="file:///C:/Users/User/OneDrive/HTML%20ASSIGNMENT%20RESUME/education.html" class="education">Next Page</a>
+	
+
+</body>
+</html>
